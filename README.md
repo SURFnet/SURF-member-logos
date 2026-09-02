@@ -15,11 +15,9 @@ A static HTML page (`index.html`) displays all organization logos in a responsiv
 
 ### Deployment
 
-The page is designed for GitHub Pages deployment:
+The site is automatically deployed to GitHub Pages via GitHub Actions whenever changes are pushed to the `main` branch.
 
-1. Push changes to the repository
-2. Enable GitHub Pages in repository settings (Settings → Pages → Source: main branch)
-3. Access the page at `https://<username>.github.io/org-logos/`
+You can access the page at `https://<username>.github.io/org-logos/`.
 
 The page works with both public and private repositories. For private repositories, users must be signed in to GitHub to view the organization list.
 

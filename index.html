@@ -99,7 +99,7 @@
 
     .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
       gap: 1rem;
       margin: 0;
       padding: 0;
@@ -119,7 +119,8 @@
 
     .logo-frame {
       display: grid;
-      min-height: 160px;
+      height: 160px;
+      overflow: hidden;
       place-items: center;
       padding: 1rem;
       background: #ffffff;
@@ -150,13 +151,26 @@
       display: none;
     }
 
+    .organization-info {
+        flex: 1;
+        padding: 0.8rem 1rem 1rem;
+        border-top: 1px solid var(--border);
+        overflow-wrap: anywhere;
+    }
+
     .organization-name {
-      display: block;
-      flex: 1;
-      padding: 0.8rem 1rem 1rem;
-      border-top: 1px solid var(--border);
-      font-weight: 600;
-      overflow-wrap: anywhere;
+        display: block;
+        font-size: large;
+        font-weight: 600;
+        margin-bottom: 0.3em;
+    }
+    .organization-code {
+        display: block;
+    }
+    .organization-guid {
+        display: block;
+        font-size: smaller;
+        font-family: monospace;
     }
 
     .empty-state {
@@ -225,7 +239,7 @@
   <main class="page">
     <header>
       <h1>Organization logos</h1>
-      <p class="intro">Browse the organizations connected to SURFconext.</p>
+      <p class="intro">Browse logos of organizations associated with SURF.</p>
     </header>
 
     <div id="status" class="status" role="status" aria-live="polite">Loading organizations&hellip;</div>
@@ -347,19 +361,23 @@
       image.height = 128;
       image.alt = `${organization.name} logo`;
       image.loading = "lazy";
-      image.hidden = true;
+      //image.hidden = true;
+      image.style.visibility = "hidden";
       image.addEventListener("load", () => {
-        image.hidden = false;
+        image.style.visibility = "visible";
         placeholder.hidden = true;
       });
       image.addEventListener("error", () => {
-        image.hidden = true;
+        image.style.visibility = "hidden";
         placeholder.hidden = false;
         item.classList.add("missing-logo");
       });
       image.src = `${LOGO_DIRECTORY}${encodeURIComponent(organization.guid)}.png`;
 
       frame.append(placeholder, image);
+
+      const orginfo = document.createElement("div");
+      orginfo.className = "organization-info";
 
       const name = document.createElement("span");
       name.className = "organization-name";
@@ -368,7 +386,17 @@
         name.title = organization.code;
       }
 
-      item.append(frame, name);
+      const code = document.createElement("span");
+      code.className = "organization-code";
+      code.textContent = organization.code ? organization.code : '&mdash;';
+
+      const guid = document.createElement("span");
+      guid.className = "organization-guid";
+      guid.textContent = organization.guid;
+
+      orginfo.append(name, code, guid);
+
+      item.append(frame, orginfo);
       return item;
     }
 
@@ -427,6 +455,7 @@
     }
 
     loadOrganizations();
+
   </script>
 </body>
 </html>

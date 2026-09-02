@@ -1,332 +1,187 @@
-# Downloaded from https://tools.surfconext.nl/crm/crm-members.csv
-# crm_guid,crm_code,crm_name,crm_doelgroep,crm_locatietype
-9ce56b42-0911-e511-80d0-005056956c1a,2COLLEGE,2College,MBO,_Hoofdlocatie
-52df2ae7-0c11-e511-80d0-005056956c1a,AERES,Stichting Aeres Groep,MBO,_Hoofdlocatie
-ecf7e733-0a11-e511-80d0-005056956c1a,AHK,Amsterdamse Hogeschool voor de Kunsten,HBO,_Hoofdlocatie
-a3938c4c-0a11-e511-80d0-005056956c1a,AHK_inactief,Verwijderen: Amsterdamse Hogeschool voor de Kunsten,HBO,_Hoofdlocatie
-a8ef0d8c-4b58-e811-80f2-005056956c1a,AIGHD,Amsterdam Institute for Global Health and Development (AIGHD),Onderzoeksinstellingen,_Hoofdlocatie
-c7a3d065-0c11-e511-80d0-005056956c1a,ALBEDA,Albeda,MBO,_Hoofdlocatie
-dd605bb2-0b11-e511-80d0-005056956c1a,ALFA,Alfa-college,MBO,_Hoofdlocatie
-9ae9fb99-0b11-e511-80d0-005056956c1a,AMARANTIS,Amarantis Onderwijsgroep,MBO,_Hoofdlocatie
-a6e56b42-0911-e511-80d0-005056956c1a,AMC,Academisch Medisch Centrum,UMC,_Hoofdlocatie
-787fd7b9-d76e-e811-80f7-005056956c1a,AMOLF,AMOLF,Onderzoeksinstellingen,_Hoofdlocatie
-841cadc4-0b11-e511-80d0-005056956c1a,AMPHIA,Amphia Ziekenhuis,STZ,_Hoofdlocatie
-f1fdba5c-0b11-e511-80d0-005056956c1a,ANTONIUSZKH,St. Antonius Ziekenhuis,STZ,_Hoofdlocatie
-307ad7b9-d76e-e811-80f7-005056956c1a,AOB,Algemene Onderwijsbond,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-809bef79-af20-e511-80d0-005056956c1a,AOCOOST,Zone.college,MBO,_Hoofdlocatie
-146458b3-0911-e511-80d0-005056956c1a,ARCHIEF,Nationaal Archief,OVERIG,_Hoofdlocatie
-281a4f7e-0c11-e511-80d0-005056956c1a,ARCUS,Arcus College,MBO,_Hoofdlocatie
-367a7248-0911-e511-80d0-005056956c1a,ARTEZ,ArtEZ University of the Arts,HBO,_Hoofdlocatie
-a5e7348a-5b54-ed11-bba2-000d3abd8e09,ASIN,T.M.C. Asser Instituut,Onderzoeksinstellingen,_Hoofdlocatie
-7c41e5e3-0911-e511-80d0-005056956c1a,ASTRON,ASTRON,Onderzoeksinstellingen,_Hoofdlocatie
-e753130e-0a11-e511-80d0-005056956c1a,AUMC,Amsterdam UMC,UMC,_Hoofdlocatie
-3f4fc287-0911-e511-80d0-005056956c1a,AVANS,Avans Hogeschool,HBO,_Hoofdlocatie
-aeb41a46-0a11-e511-80d0-005056956c1a,AVENTUS,ROC Aventus,MBO,_Hoofdlocatie
-287bd7b9-d76e-e811-80f7-005056956c1a,BIBAZ,Bibliotheek AanZet,Bibliotheken,_Hoofdlocatie
-2b62fe25-93f1-e811-8101-005056956c1a,BIBUTRECHT,Stichting de Bibliotheek Utrecht,Bibliotheken,_Hoofdlocatie
-a67a7248-0911-e511-80d0-005056956c1a,BNGRON,Biblionet Groningen,Bibliotheken,_Hoofdlocatie
-13168ebf-0911-e511-80d0-005056956c1a,BUAS,Breda University of Applied Sciences,HBO,_Hoofdlocatie
-3f3dda54-0911-e511-80d0-005056956c1a,CAP/ISM,Cap Gemini Ernst & Young,Universiteiten,_Hoofdlocatie
-673dda54-0911-e511-80d0-005056956c1a,CBG,Centraal Bureau voor Genealogie,Onderzoeksinstellingen,_Hoofdlocatie
-467ed7b9-d76e-e811-80f7-005056956c1a,CENTERDATA,Stichting Centerdata,Onderzoeksinstellingen,_Hoofdlocatie
-4547f65a-0911-e511-80d0-005056956c1a,CHE,Christelijke Hogeschool Ede,HBO,_Hoofdlocatie
-2958a94a-0d11-e511-80d0-005056956c1a,CHEMELOT,Chemelot Campus,Onderzoeksinstellingen,_Hoofdlocatie
-5047f65a-0911-e511-80d0-005056956c1a,CHN,Stenden Hogeschool .,HBO,_Hoofdlocatie
-f24dd711-0d11-e511-80d0-005056956c1a,CIBAP,Cibap vakschool voor vormgeving,MBO,_Hoofdlocatie
-7947f65a-0911-e511-80d0-005056956c1a,CITO,Stichting Cito Instituut voor Toetsontwikkeling,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-9bd10540-0a11-e511-80d0-005056956c1a,CLUSIUS,Vonk,MBO,_Hoofdlocatie
-3cf3a18d-a507-e611-80db-005056956c1a,CODARTS,Codarts Rotterdam,HBO,_Hoofdlocatie
-4573b4a6-0d11-e511-80d0-005056956c1a,COG,Christelijke Onderwijs Groep Vallei & Gelderland-Midden,MBO,_Hoofdlocatie
-2447f65a-0911-e511-80d0-005056956c1a,CPB,Centraal Planbureau,Onderzoeksinstellingen,_Hoofdlocatie
-b92250f0-c2be-eb11-910b-0050569571ea,CURIO,Curio,MBO,_Hoofdlocatie
-8e7fd7b9-d76e-e811-80f7-005056956c1a,CWI,Centrum Wiskunde en Informatica,Onderzoeksinstellingen,_Hoofdlocatie
-9ec33ad9-0d11-e511-80d0-005056956c1a,DAVINCI,Da Vinci College,MBO,_Hoofdlocatie
-43a78f01-ec06-ef11-9f89-6045bda26db7,DCTerraOUD,DCTerra OUD,MBO,_Hoofdlocatie
-fbd26ef6-d83a-ee11-bdf4-000d3abbbf69,DeletedSites,DeletedSites,OVERIG,_Hoofdlocatie
-5b43b714-0a11-e511-80d0-005056956c1a,DELTARES,Deltares,Grote technologische instituten,_Hoofdlocatie
-1cefdc0b-0b11-e511-80d0-005056956c1a,DELTION,Deltion College,MBO,_Hoofdlocatie
-88503161-0911-e511-80d0-005056956c1a,DESIGNACADEMY,Design Academy Eindhoven,HBO,_Hoofdlocatie
-aa7fd7b9-d76e-e811-80f7-005056956c1a,DIFFER,DIFFER,Onderzoeksinstellingen,_Hoofdlocatie
-6e82fa68-0911-e511-80d0-005056956c1a,DRENTHECOLLEGE,DCTerra,MBO,_Hoofdlocatie
-3a47f65a-0911-e511-80d0-005056956c1a,DRIESTAR,Driestar Hogeschool,HBO,_Hoofdlocatie
-9882fa68-0911-e511-80d0-005056956c1a,ECN,ECN,Grote technologische instituten,_Hoofdlocatie
-1ea6c781-0911-e511-80d0-005056956c1a,EDITH,Hogeschool Edith Stein/OCT,HBO,_Hoofdlocatie
-2e0156ad-0d11-e511-80d0-005056956c1a,EGI,EGI Foundation,Onderzoeksinstellingen,_Hoofdlocatie
-a382fa68-0911-e511-80d0-005056956c1a,ERASMUSMC,Erasmus MC,UMC,_Hoofdlocatie
-c615206f-0911-e511-80d0-005056956c1a,ESA,European Space Agency ESTEC,Onderzoeksinstellingen,_Hoofdlocatie
-97bbc0da-0c11-e511-80d0-005056956c1a,ESCIENCECENTER,Netherlands eScience Center,Onderzoeksinstellingen,_Hoofdlocatie
-93e92ec8-0a11-e511-80d0-005056956c1a,ETZ,Elisabeth TweeSteden Ziekenhuis,STZ,_Hoofdlocatie
-ae82fa68-0911-e511-80d0-005056956c1a,EUR,Erasmus Universiteit Rotterdam,Universiteiten,_Hoofdlocatie
-4b7a7248-0911-e511-80d0-005056956c1a,EXP.ABF,Astronomische Beeldverwerkingsfaciliteit-ABF Sterrenwacht Leiden,Onderzoeksinstellingen,_Hoofdlocatie
-8e2c51f4-8545-e511-80d2-005056956c1a,FCROC,Friesland College,MBO,_Hoofdlocatie
-7460582e-b9cf-ed11-b597-000d3a4b7eb5,FIRDA,Firda,MBO,_Hoofdlocatie
-dbba7775-0911-e511-80d0-005056956c1a,FONTYS,Fontys Hogeschool,HBO,_Hoofdlocatie
-6b83ee2e-0c11-e511-80d0-005056956c1a,FRIESEPOORT,ROC Friese Poort,MBO,_Hoofdlocatie
-3ef8e733-0a11-e511-80d0-005056956c1a,GBU,Gemeentebibliotheek Utrecht,Bibliotheken,_Hoofdlocatie
-5ec36c81-0b11-e511-80d0-005056956c1a,GELRE,Gelre Ziekenhuizen,STZ,_Hoofdlocatie
-90d7a67b-0911-e511-80d0-005056956c1a,GEODELFT,Deltares_inactief,Onderzoeksinstellingen,_Hoofdlocatie
-55b0f277-0c11-e511-80d0-005056956c1a,GH,Stichting Hogeschool Viaa,HBO,_Hoofdlocatie
-f0cc01d1-0b11-e511-80d0-005056956c1a,GILDE,ROC Gilde Opleidingen,MBO,_Hoofdlocatie
-b8d7a67b-0911-e511-80d0-005056956c1a,GLR,Grafisch Lyceum Rotterdam,MBO,_Hoofdlocatie
-c3d7a67b-0911-e511-80d0-005056956c1a,GLU,Grafisch Lyceum Utrecht,MBO,_Hoofdlocatie
-d1dd6ecc-0d11-e511-80d0-005056956c1a,GRA,Gerrit Rietveld Academie,HBO,_Hoofdlocatie
-5203e539-0a11-e511-80d0-005056956c1a,GRAAFSCHAP,Graafschap College,MBO,_Hoofdlocatie
-6e33d7d2-0d11-e511-80d0-005056956c1a,GRONINGERFORUM,Forum Groningen,Bibliotheken,_Hoofdlocatie
-a13ac01a-0a11-e511-80d0-005056956c1a,HAN,Hogeschool van Arnhem en Nijmegen,HBO,_Hoofdlocatie
-cba5c781-0911-e511-80d0-005056956c1a,HANZE,Hanzehogeschool Groningen,HBO,_Hoofdlocatie
-23459c0b-0d11-e511-80d0-005056956c1a,HAS,HAS green academy,HBO,_Hoofdlocatie
-651c028e-0911-e511-80d0-005056956c1a,HDH,Hotelschool Den Haag,HBO,_Hoofdlocatie
-f3d3aef5-b3b3-ee11-a569-000d3a4b7eb5,HEALTHRI,Health-RI,Onderzoeksinstellingen,_Hoofdlocatie
-5d4fc287-0911-e511-80d0-005056956c1a,HES-ADAM,Hogeschool voor Economische Studies Amsterdam,HBO,_Hoofdlocatie
-5fc44cc6-f00b-f011-bae3-002248857db5,HFML-FELIX,HFML-FELIX,Onderzoeksinstellingen,_Hoofdlocatie
-d8d7a67b-0911-e511-80d0-005056956c1a,HHS,De Haagse Hogeschool,HBO,_Hoofdlocatie
-0a7cd7b9-d76e-e811-80f7-005056956c1a,HKDH,Hogeschool der Kunsten Den Haag,HBO,_Hoofdlocatie
-073bc01a-0a11-e511-80d0-005056956c1a,HKU,Hogeschool voor de Kunsten Utrecht,HBO,_Hoofdlocatie
-eaa5c781-0911-e511-80d0-005056956c1a,HLCN,Helicon Opleidingen,MBO,_Hoofdlocatie
-3c16068d-c3be-eb11-910b-0050569571ea,HMC,Hout- en Meubileringscollege (HMC),MBO,_Hoofdlocatie
-5cb51c43-6416-e511-80d0-005056956c1a,HMF,Hartwig Medical Foundation,Onderzoeksinstellingen,_Hoofdlocatie
-baa14802-0c11-e511-80d0-005056956c1a,HORIZON,Talland College,MBO,_Hoofdlocatie
-354fc287-0911-e511-80d0-005056956c1a,HRO,Hogeschool Rotterdam,HBO,_Hoofdlocatie
-2a4fc287-0911-e511-80d0-005056956c1a,HSLEIDEN,Hogeschool Leiden,HBO,_Hoofdlocatie
-558f6c2d-0a11-e511-80d0-005056956c1a,HSMARNIX,Marnix Academie,HBO,_Hoofdlocatie
-724fc287-0911-e511-80d0-005056956c1a,HSZUYD,Zuyd Hogeschool,HBO,_Hoofdlocatie
-ed3ac01a-0a11-e511-80d0-005056956c1a,HU,Hogeschool Utrecht,HBO,_Hoofdlocatie
-adba6dff-0c11-e511-80d0-005056956c1a,HUBRECHT,Koninklijke Nederlandse Akademie van Wetenschappen - Hubrecht Institute,Onderzoeksinstellingen,_Hoofdlocatie
-534fc287-0911-e511-80d0-005056956c1a,HVA,Hogeschool van Amsterdam,HBO,_Hoofdlocatie
-674fc287-0911-e511-80d0-005056956c1a,HZEELAND,HZ University of Applied Sciences,HBO,_Hoofdlocatie
-13943d93-9276-f011-b4cc-000d3aabf5ae,IAE,Internet Archive Europe,OVERIG,_Hoofdlocatie
-ff104994-0911-e511-80d0-005056956c1a,IB-GROEP,Dienst Uitvoering Onderwijs - DUO,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-fc1923d5-275b-e711-80e7-005056956c1a,IBFD,IBFD - International Bureau of Fiscal Documentation,Onderzoeksinstellingen,_Hoofdlocatie
-798e999a-0911-e511-80d0-005056956c1a,ICIN,Interuniversitair Cardiologisch Instituut Nederland,Onderzoeksinstellingen,_Hoofdlocatie
-a541e5e3-0911-e511-80d0-005056956c1a,ICTOS,Stichting ICT op School,OVERIG,_Hoofdlocatie
-e58eeb34-0c11-e511-80d0-005056956c1a,IDCOLLEGE,ROC ID College,MBO,_Hoofdlocatie
-d65dc790-a81a-f011-9989-000d3a4aa3f8,IFCAT,Stichting International Festivals for Creative Application of Technology Foundation (WHY2025),OVERIG,_Hoofdlocatie
-45af70f9-0c11-e511-80d0-005056956c1a,IKNL,Integraal Kankercentrum Nederland,Onderzoeksinstellingen,_Hoofdlocatie
-9fa2f5a7-a936-ea11-90f5-0050569571ea,IMEC,Stichting IMEC Nederland,Onderzoeksinstellingen,_Hoofdlocatie
-3ca6c781-0911-e511-80d0-005056956c1a,INHOLLAND,Hogeschool Inholland,HBO,_Hoofdlocatie
-88e92ec8-0a11-e511-80d0-005056956c1a,IPABO,Hogeschool iPabo,HBO,_Hoofdlocatie
-4ef3a18d-a507-e611-80db-005056956c1a,ISELINGE,Iselinge Hogeschool,HBO,_Hoofdlocatie
-afd3b0a0-0911-e511-80d0-005056956c1a,KABK,Koninklijke Academie van Beeldende Kunsten,HBO,_Hoofdlocatie
-06121c27-0a11-e511-80d0-005056956c1a,KEMPEL,Hogeschool de Kempel,HBO,_Hoofdlocatie
-ba41e5e3-0911-e511-80d0-005056956c1a,KENNISNET,Kennisnet,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-ec10ebb9-0d11-e511-80d0-005056956c1a,KIT,Koninklijk Instituut voor de Tropen,Onderzoeksinstellingen,_Hoofdlocatie
-cc8e999a-0911-e511-80d0-005056956c1a,KNAW,Koninklijke Nederlandse Akademie van Wetenschappen,Onderzoeksinstellingen,_Hoofdlocatie
-a5d3b0a0-0911-e511-80d0-005056956c1a,KNMI,Koninklijk Nederlands Meteorologisch Instituut,Onderzoeksinstellingen,_Hoofdlocatie
-bad3b0a0-0911-e511-80d0-005056956c1a,KONBIB,Koninklijke Bibliotheek,Bibliotheken,_Hoofdlocatie
-b3622cd4-86fa-ef11-bae2-6045bd9ff3bb,KPNRESEARCH,KPN Research,OVERIG,_Hoofdlocatie
-71c5939c-0c11-e511-80d0-005056956c1a,KPZ,Hogeschool KPZ,HBO,_Hoofdlocatie
-6f3a3614-0c11-e511-80d0-005056956c1a,KWIC,Koning Willem 1 College,MBO,_Hoofdlocatie
-9dea0ff5-1d01-ed11-82e5-000d3ab78b09,KWR,KWR Water Research Institute,Onderzoeksinstellingen,_Hoofdlocatie
-d146e5d1-c315-e511-80d0-005056956c1a,LANDSTEDE,Landstede MBO,MBO,_Hoofdlocatie
-bad10540-0a11-e511-80d0-005056956c1a,LEEUWENBORGH,ROC Leeuwenborgh,MBO,_Hoofdlocatie
-09114994-0911-e511-80d0-005056956c1a,LEIDENUNIV,Universiteit Leiden,Universiteiten,_Hoofdlocatie
-806f75b8-2a0b-ec11-9110-0050569571ea,LEIJGRAAF,De Leijgraaf,MBO,_Hoofdlocatie
-54fe37c8-ec26-e511-80d0-005056956c1a,LENTIZ,Lentiz Onderwijsgroep,MBO,_Hoofdlocatie
-4f623d04-f8e7-e811-8100-005056956c1a,LIR,Registratie prefixes LIR - geen SURFnet klant,OVERIG,_Hoofdlocatie
-53340e19-f86f-ed11-9561-000d3a4b7eb5,LIS,Leidse Instrumentmakers School,MBO,_Hoofdlocatie
-14963a1e-0b11-e511-80d0-005056956c1a,LOFAR,Stichting LOFAR,Onderzoeksinstellingen,_Hoofdlocatie
-21a1f0a6-0911-e511-80d0-005056956c1a,LUMC,Leids Universitair Medisch Centrum,UMC,_Hoofdlocatie
-4c459c0b-0d11-e511-80d0-005056956c1a,MAASTRO,MAASTRO,Onderzoeksinstellingen,_Hoofdlocatie
-ca7cd7b9-d76e-e811-80f7-005056956c1a,MAHU,Mauritshuis,Musea,_Hoofdlocatie
-68a1f0a6-0911-e511-80d0-005056956c1a,MARIN,Maritime Research Institute Netherlands (MARIN),Onderzoeksinstellingen,_Hoofdlocatie
-aedf8cb8-0b11-e511-80d0-005056956c1a,MBOAMERSFOORT,MBO Amersfoort,MBO,_Hoofdlocatie
-0fa5cbc1-6255-e511-80d2-005056956c1a,MBORAAD,MBO Raad,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-f3442647-50ae-e711-80eb-005056956c1a,MBORIJNLAND,mboRijnland,MBO,_Hoofdlocatie
-a22c4918-0d11-e511-80d0-005056956c1a,MBOUTRECHT,MBO Utrecht,MBO,_Hoofdlocatie
-455b1dad-0911-e511-80d0-005056956c1a,MCL,Medisch Centrum Leeuwarden B.V.,STZ,_Hoofdlocatie
-b156265a-c5be-eb11-910b-0050569571ea,MEDIACOLLEGE,Mediacollege Amsterdam,MBO,_Hoofdlocatie
-985b1dad-0911-e511-80d0-005056956c1a,MIN.OCW,"Ministerie van Onderwijs, Cultuur en Wetenschap",Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-0f3ac854-97dc-e511-80d9-005056956c1a,MMC,Máxima Medisch Centrum,STZ,_Hoofdlocatie
-eb6358b3-0911-e511-80d0-005056956c1a,MONDRIAAN,ROC Mondriaan,MBO,_Hoofdlocatie
-3a5b1dad-0911-e511-80d0-005056956c1a,MPI,Max Planck Instituut,Onderzoeksinstellingen,_Hoofdlocatie
-bae56b42-0911-e511-80d0-005056956c1a,MUMC,Maastricht UMC,UMC,_Hoofdlocatie
-fd72b4a6-0d11-e511-80d0-005056956c1a,NATURALIS,Naturalis Biodiversity Center,Onderzoeksinstellingen,_Hoofdlocatie
-2a6458b3-0911-e511-80d0-005056956c1a,NBD-BIBLION,NBD Biblion,Bibliotheken,_Hoofdlocatie
-1f6458b3-0911-e511-80d0-005056956c1a,NC3A,NATO NCIA AGENCY,Onderzoeksinstellingen,_Hoofdlocatie
-1e963a1e-0b11-e511-80d0-005056956c1a,NCF,Netherlands National Computing Facilities Foundation,Onderzoeksinstellingen,_Hoofdlocatie
-e4158ebf-0911-e511-80d0-005056956c1a,NCG,Nederlandse Commissie voor Geodesie,Onderzoeksinstellingen,_Hoofdlocatie
-6ce9e76b-0c11-e511-80d0-005056956c1a,NETSURF,netSURF,OVERIG,_Hoofdlocatie
-456458b3-0911-e511-80d0-005056956c1a,NFI,Nederlands Forensisch Instituut,Onderzoeksinstellingen,_Hoofdlocatie
-dca7897b-0d11-e511-80d0-005056956c1a,NFU,UMCNL,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-5ff5da64-933e-ea11-90f8-0050569571ea,NGNlab,SURF NGN Lab,OVERIG,_Hoofdlocatie
-13345ab9-0911-e511-80d0-005056956c1a,NHG,Nederlands Historisch Genootschap,Onderzoeksinstellingen,_Hoofdlocatie
-ce82b820-0a11-e511-80d0-005056956c1a,NHL,NHL Hogeschool .,HBO,_Hoofdlocatie
-2b7c7468-3692-e711-80e9-005056956c1a,NHLSTENDEN,NHL Stenden Hogeschool,HBO,_Hoofdlocatie
-23345ab9-0911-e511-80d0-005056956c1a,NIBG,Nederlands Instituut voor Beeld en Geluid,Musea,_Hoofdlocatie
-37168ebf-0911-e511-80d0-005056956c1a,NIKHEF,NIKHEF,Onderzoeksinstellingen,_Hoofdlocatie
-557150c6-0d11-e511-80d0-005056956c1a,NIMETO,Nimeto Utrecht,MBO,_Hoofdlocatie
-2e345ab9-0911-e511-80d0-005056956c1a,NIOO-CEMO,Nederlands Instituut voor Oecologisch Onderzoek - CEMO (Yerseke),Onderzoeksinstellingen,_Hoofdlocatie
-3d098696-0c11-e511-80d0-005056956c1a,NIOZ,Koninklijk Nederlands Instituut voor Zeeonderzoek - NIOZ,Onderzoeksinstellingen,_Hoofdlocatie
-3e88dde9-0911-e511-80d0-005056956c1a,NIVEL,Stichting Nivel,Onderzoeksinstellingen,_Hoofdlocatie
-66345ab9-0911-e511-80d0-005056956c1a,NKI,Nederlands Kanker Instituut,Onderzoeksinstellingen,_Hoofdlocatie
-f87cd7b9-d76e-e811-80f7-005056956c1a,NMVW,Nationaal Museum van Wereldculturen,Musea,_Hoofdlocatie
-70345ab9-0911-e511-80d0-005056956c1a,NNI,Nederlands Normalisatie Instituut,Onderzoeksinstellingen,_Hoofdlocatie
-e5fcf181-0d11-e511-80d0-005056956c1a,NOVA,ROC Nova College,MBO,_Hoofdlocatie
-4988dde9-0911-e511-80d0-005056956c1a,NPC,Noorderpoort,MBO,_Hoofdlocatie
-0b1a6ee6-cd5b-e711-80e7-005056956c1a,NRG,Nuclear Research Group,Onderzoeksinstellingen,_Hoofdlocatie
-7880d7b9-d76e-e811-80f7-005056956c1a,NSCR,Nederlands Studiecentrum Criminaliteit en Rechtshandhaving,Onderzoeksinstellingen,_Hoofdlocatie
-debe88c5-0911-e511-80d0-005056956c1a,NUFFIC,Nuffic,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-855f7417-3c2e-e611-80dd-005056956c1a,NVAO,Nederlands - Vlaamse Accreditatieorganisatie,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-7a80d7b9-d76e-e811-80f7-005056956c1a,NWO,Nederlandse Organisatie voor Wetenschappelijk Onderzoek,Onderzoeksinstellingen,_Hoofdlocatie
-f4158ebf-0911-e511-80d0-005056956c1a,NWO_OLD,NWO,Onderzoeksinstellingen,_Hoofdlocatie
-d0ba7775-0911-e511-80d0-005056956c1a,NWOI,Stichting Nederlandse Wetenschappelijk Onderzoek Instituten,Onderzoeksinstellingen,_Hoofdlocatie
-12bf88c5-0911-e511-80d0-005056956c1a,OBA,Openbare Bibliotheek Amsterdam,Bibliotheken,_Hoofdlocatie
-e2f7e733-0a11-e511-80d0-005056956c1a,OMROEP,Stichting Nederlandse Publieke Omroep,OVERIG,_Hoofdlocatie
-08bf88c5-0911-e511-80d0-005056956c1a,OU,Open Universiteit Nederland,Universiteiten,_Hoofdlocatie
-1273b4a6-0d11-e511-80d0-005056956c1a,OWGNOORD,Onderwijsgroep Noord,MBO,_Hoofdlocatie
-4b1cadc4-0b11-e511-80d0-005056956c1a,OWGTILBURG,Yonder,MBO,_Hoofdlocatie
-1f114994-0911-e511-80d0-005056956c1a,OWINSP,Inspectie van het Onderwijs,OVERIG,_Hoofdlocatie
-407f27ac-0b11-e511-80d0-005056956c1a,PBL,Planbureau voor de Leefomgeving,Onderzoeksinstellingen,_Hoofdlocatie
-9c322754-7868-e711-80e8-005056956c1a,PMC,Prinses Máxima Centrum voor kinderoncologie,Onderzoeksinstellingen,_Hoofdlocatie
-c4b41a46-0a11-e511-80d0-005056956c1a,PROLOCATION,Prolocation B.V.,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-83256095-87fa-ef11-bae2-6045bd9ff3bb,RDI,Rijksinspectie Digitale Infrastructuur (RDI),OVERIG,_Hoofdlocatie
-f526615f-0c11-e511-80d0-005056956c1a,REGIOCOLLEGE,Regio College voor Beroepsonderwijs en Educatie Zaanstreek-Waterland,MBO,_Hoofdlocatie
-7519b9d7-0911-e511-80d0-005056956c1a,RIJC,Rijn IJssel,MBO,_Hoofdlocatie
-ba7dd7b9-d76e-e811-80f7-005056956c1a,RIJKSDIENSTCE,Rijksdienst voor het Cultureel Erfgoed,Onderzoeksinstellingen,_Hoofdlocatie
-d8fdba5c-0b11-e511-80d0-005056956c1a,RIJKSMUSEUM,Rijksmuseum Amsterdam,Musea,_Hoofdlocatie
-c5ba7775-0911-e511-80d0-005056956c1a,RIJNH,DIFFER .,Onderzoeksinstellingen,_Hoofdlocatie
-4f73b4a6-0d11-e511-80d0-005056956c1a,RIJNSTATE,Rijnstate Ziekenhuis,STZ,_Hoofdlocatie
-c1adb9d1-0911-e511-80d0-005056956c1a,RIVM,Rijksinstituut voor Volksgezondheid en Milieu,Onderzoeksinstellingen,_Hoofdlocatie
-7f1a9e8c-e0df-e711-80ed-005056956c1a,RIVOR,ROC Rivor,MBO,_Hoofdlocatie
-66d10540-0a11-e511-80d0-005056956c1a,ROC-EHV,Stichting ROC Summa College,MBO,_Hoofdlocatie
-fbadb9d1-0911-e511-80d0-005056956c1a,ROC-NIJMEGEN,ROC Nijmegen,MBO,_Hoofdlocatie
-8019b9d7-0911-e511-80d0-005056956c1a,ROC-ON,ROC van Twente,MBO,_Hoofdlocatie
-8b19b9d7-0911-e511-80d0-005056956c1a,ROC-ON/ICT,ROC van Twente-Backoffice ICT,MBO,_Hoofdlocatie
-c5e7d68d-0b11-e511-80d0-005056956c1a,ROCLEIDEN,ROC Leiden,MBO,_Hoofdlocatie
-e7adb9d1-0911-e511-80d0-005056956c1a,ROCMN,ROC Midden Nederland,MBO,_Hoofdlocatie
-f1adb9d1-0911-e511-80d0-005056956c1a,ROCMN/ICT,ROC Midden Nederland - Stafdienst ICT en beheer,MBO,_Hoofdlocatie
-932c4918-0d11-e511-80d0-005056956c1a,ROCTOP,ROC TOP,MBO,_Hoofdlocatie
-7fb41a46-0a11-e511-80d0-005056956c1a,ROCVA,ROC van Amsterdam-Flevoland,MBO,_Hoofdlocatie
-dfe40c49-035c-e711-80e7-005056956c1a,ROOIPANNEN,De Rooi Pannen,MBO,_Hoofdlocatie
-e33ac01a-0a11-e511-80d0-005056956c1a,RU,Radboud Universiteit,Universiteiten,_Hoofdlocatie
-f8001e02-0a11-e511-80d0-005056956c1a,RU/UCI,Radboud Universiteit - Universitair Centrum Informatievoorziening,Universiteiten,_Hoofdlocatie
-ccadb9d1-0911-e511-80d0-005056956c1a,RUG,Rijksuniversiteit Groningen,Universiteiten,_Hoofdlocatie
-c4a14802-0c11-e511-80d0-005056956c1a,sambo,MBO Digitaal,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-cc5ed0dd-0911-e511-80d0-005056956c1a,SARA,SURFsara bv,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-9a82b820-0a11-e511-80d0-005056956c1a,SAXION,Saxion,HBO,_Hoofdlocatie
-327d644a-0b11-e511-80d0-005056956c1a,SAXION/1,Saxion Hogeschool/1,HBO,_Hoofdlocatie
-805b2684-8c68-e711-80e8-005056956c1a,SCALDA,Scalda,MBO,_Hoofdlocatie
-ac5d33ed-9a08-e711-80e3-005056956c1a,SCHEEPVMUSEUM,Het Scheepvaartmuseum,Musea,_Hoofdlocatie
-145fd0dd-0911-e511-80d0-005056956c1a,SCP,Sociaal en Cultureel Planbureau,Onderzoeksinstellingen,_Hoofdlocatie
-d7caa228-0c11-e511-80d0-005056956c1a,SIDN,SIDN,OVERIG,_Hoofdlocatie
-ec423cdd-0b11-e511-80d0-005056956c1a,SIMAC,Simac IDS bv,OVERIG,_Hoofdlocatie
-61e9e76b-0c11-e511-80d0-005056956c1a,SINTLUCAS,SintLucas,MBO,_Hoofdlocatie
-693d004b-291e-e911-8104-005056956c1a,SIVON,SIVON,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-81d4e8fc-513c-ea11-90f6-0050569571ea,SN7SN8,SN7-SN8 Bridge,OVERIG,_Hoofdlocatie
-55664529-9156-ed11-bba2-000d3abcae8d,SOMA,SOMA College,MBO,_Hoofdlocatie
-c86d3538-65f5-e911-90f2-0050569571ea,SORG,RBO scholen,MBO,_Hoofdlocatie
-6081d7b9-d76e-e811-80f7-005056956c1a,SRON,SRON Space Research Organisation Netherlands,Onderzoeksinstellingen,_Hoofdlocatie
-7669e59a-ecea-e711-80ed-005056956c1a,SSCCAMPUS,SSC-Campus,Onderzoeksinstellingen,_Hoofdlocatie
-d193370b-d73a-e711-80e6-005056956c1a,STADKAMER,Stichting OverO,Bibliotheken,_Hoofdlocatie
-1725fee0-0c11-e511-80d0-005056956c1a,STCMBO,STC Group,MBO,_Hoofdlocatie
-b997695d-d3e1-e511-80d9-005056956c1a,STFRANCISCUS,Sint Franciscus Gasthuis,STZ,_Hoofdlocatie
-987ed7b9-d76e-e811-80f7-005056956c1a,STSANS,Stichting SaNS,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-ec9d6d75-0d11-e511-80d0-005056956c1a,STUDIELINK,Stichting Studielink,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-d2f7e733-0a11-e511-80d0-005056956c1a,STW,Stichting Techniek en Wetenschap,Onderzoeksinstellingen,_Hoofdlocatie
-5ede9c9b-3bbc-ea11-90fe-0050569571ea,SURF,SURF BV,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-5488dde9-0911-e511-80d0-005056956c1a,SURFBUREAU,SURF-bureau,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-9985a394-4245-e711-80e6-005056956c1a,SURFcumulus,SURFcumulus,OVERIG,_Hoofdlocatie
-e03a2cd2-feab-ef11-b8e8-7c1e528442a5,SURFDOMEINEN,SURFdomeinen,OVERIG,_Hoofdlocatie
-4c6cf30e-c25d-e811-80f5-005056956c1a,SURFfirewall,SURF NW SURFfirewall (int. cust),OVERIG,_Hoofdlocatie
-ad93daef-0911-e511-80d0-005056956c1a,SURFNET,SURFnet bv,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-c9b5e717-0b11-e511-80d0-005056956c1a,SURFnetnetwerk,SURFnet netwerk,OVERIG,_Hoofdlocatie
-6723d44a-ba71-ed11-9561-000d3ab6fa92,SURFOC,SURFonCampus,OVERIG,_Hoofdlocatie
-578a2227-b6bd-ed11-83ff-000d3abbbf69,SURFQKD,SURF NW QKD (int. cust),Onderzoeksinstellingen,_Hoofdlocatie
-db6d8ea2-0c11-e511-80d0-005056956c1a,SURFSHARE,SURFshare,OVERIG,_Hoofdlocatie
-a293daef-0911-e511-80d0-005056956c1a,SURFTESTACCOUNT,SURF testaccount,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-5b1c028e-0911-e511-80d0-005056956c1a,SVH_inactief,Horeca Branche Instituut_inactief,MBO,_Hoofdlocatie
-45dde2d3-3b5f-ec11-9114-0050569571ea,SVO,SVO vakopleiding food,MBO,_Hoofdlocatie
-b6bac06a-12ec-e811-8101-005056956c1a,SVP,SURF IIT SVP (int. cust),OVERIG,_Hoofdlocatie
-c893daef-0911-e511-80d0-005056956c1a,SWETS,Swets Information Services B.V.,Onderzoeksinstellingen,_Hoofdlocatie
-8a88dde9-0911-e511-80d0-005056956c1a,SWOV,Stichting Wetenschappelijk Onderzoek Verkeersveiligheid,Onderzoeksinstellingen,_Hoofdlocatie
-e761b706-6bfa-e611-80e3-005056956c1a,TERAA,Ter AA,MBO,_Hoofdlocatie
-9c9c15f6-0911-e511-80d0-005056956c1a,TERENA,GÉANT Vereniging,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-516ef8b2-8671-ed11-9561-000d3a4b7eb5,TERRA,Terra OUD,MBO,_Hoofdlocatie
-3902a8cf-776f-e611-80e0-005056956c1a,TESTACCOUNT,Testaccount Netwerkdashboard,OVERIG,_Hoofdlocatie
-e7a7897b-0d11-e511-80d0-005056956c1a,THOMAS,Thomas More Hogeschool,HBO,_Hoofdlocatie
-15931efc-0911-e511-80d0-005056956c1a,TNO,TNO,Grote technologische instituten,_Hoofdlocatie
-e5ba7775-0911-e511-80d0-005056956c1a,TNO/FEL,TNO - Fysisch en Elektronisch Laboratorium,Onderzoeksinstellingen,_Hoofdlocatie
-940dbeb5-5c4b-e711-80e6-005056956c1a,TRESOAR,Tresoar,Bibliotheken,_Hoofdlocatie
-236c6787-0b11-e511-80d0-005056956c1a,TRIMBOS,Trimbos Instituut,Onderzoeksinstellingen,_Hoofdlocatie
-4f82fa68-0911-e511-80d0-005056956c1a,TUDELFT,Technische Universiteit Delft,Universiteiten,_Hoofdlocatie
-1194daef-0911-e511-80d0-005056956c1a,TUE,Technische Universiteit Eindhoven,Universiteiten,_Hoofdlocatie
-b0e56b42-0911-e511-80d0-005056956c1a,UMCG,Universitair Medisch Centrum Groningen,UMC,_Hoofdlocatie
-66931efc-0911-e511-80d0-005056956c1a,UMCN,Radboudumc,UMC,_Hoofdlocatie
-03011e02-0a11-e511-80d0-005056956c1a,UMCU,UMC Utrecht,UMC,_Hoofdlocatie
-21011e02-0a11-e511-80d0-005056956c1a,UNIMAAS,Maastricht University,Universiteiten,_Hoofdlocatie
-dc53130e-0a11-e511-80d0-005056956c1a,UNL,Universiteiten van Nederland,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-223bc01a-0a11-e511-80d0-005056956c1a,UTWENTE,University of Twente,Universiteiten,_Hoofdlocatie
-90ba7775-0911-e511-80d0-005056956c1a,UU,Universiteit Utrecht,Universiteiten,_Hoofdlocatie
-ec82b820-0a11-e511-80d0-005056956c1a,UVA,Universiteit van Amsterdam,Universiteiten,_Hoofdlocatie
-4f011e02-0a11-e511-80d0-005056956c1a,UVT,Tilburg University,Universiteiten,_Hoofdlocatie
-9083ee2e-0c11-e511-80d0-005056956c1a,VANCIS,VANCIS C&MS,OVERIG,_Hoofdlocatie
-0feb43f0-7444-e811-80f2-005056956c1a,VANGOGH,Van Gogh Museum,Musea,_Hoofdlocatie
-e7bbf998-9088-e511-80d5-005056956c1a,VERENIGINGHOGESCHOLEN,Vereniging Hogescholen,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-46aa1808-0a11-e511-80d0-005056956c1a,VHL,Hogeschool Van Hall Larenstein,HBO,_Hoofdlocatie
-dbfedd52-c2a3-e911-90f2-0050569571ea,VISTA,VISTA College,MBO,_Hoofdlocatie
-8ea468f2-2005-ea11-90f2-0050569571ea,VSL,VSL,OVERIG,_Hoofdlocatie
-d253130e-0a11-e511-80d0-005056956c1a,VU,Vrije Universiteit Amsterdam,Universiteiten,_Hoofdlocatie
-1e6fef11-0b11-e511-80d0-005056956c1a,WELLANT,Wellantcollege,MBO,_Hoofdlocatie
-5043b714-0a11-e511-80d0-005056956c1a,WINDESHEIM,Christelijke Hogeschool Windesheim,HBO,_Hoofdlocatie
-2143b714-0a11-e511-80d0-005056956c1a,WUR,Wageningen University & Research,Universiteiten,_Hoofdlocatie
-972ea2d8-c3fb-e511-80da-005056956c1a,YOUNGCAPITAL,YoungCapital Flex B.V.,OVERIG,_Hoofdlocatie
-080e2956-ab5f-eb11-9105-0050569571ea,YUVERTA,Yuverta,MBO,_Hoofdlocatie
-9519b9d7-0911-e511-80d0-005056956c1a,ZADKINE,ROC Zadkine,MBO,_Hoofdlocatie
-963ac01a-0a11-e511-80d0-005056956c1a,ZEBI,ZB Bibliotheek van Zeeland,Bibliotheken,_Hoofdlocatie
-4a9ea150-0d11-e511-80d0-005056956c1a,ZONMW,ZonMw,Onderzoeksinstellingen,_Hoofdlocatie
-2a7ad7b9-d76e-e811-80f7-005056956c1a,,AIGHD,Onderzoeksinstellingen,_Hoofdlocatie
-baba7775-0911-e511-80d0-005056956c1a,,AMOLF .,Onderzoeksinstellingen,_Hoofdlocatie
-159e6d75-0d11-e511-80d0-005056956c1a,,Amsterdam Museum,Musea,_Hoofdlocatie
-eb3e9040-adee-ef11-9341-7c1e5252bd14,,Anne Frank Stichting,Musea,_Hoofdlocatie
-409542a0-0d11-e511-80d0-005056956c1a,,AUMC OUD,UMC,_Hoofdlocatie
-9e7ad7b9-d76e-e811-80f7-005056956c1a,,Bibliotheek Zuid-Kennemerland,Bibliotheken,_Hoofdlocatie
-7ee92ec8-0a11-e511-80d0-005056956c1a,,Blutarsky,OVERIG,_Hoofdlocatie
-76e9e76b-0c11-e511-80d0-005056956c1a,,Bureau STZ,STZ,_Hoofdlocatie
-25b32412-5fbc-ea11-90fe-0050569571ea,,Centraal Museum,Musea,_Hoofdlocatie
-2f47f65a-0911-e511-80d0-005056956c1a,,Centrum Wiskunde & Informatica .,Onderzoeksinstellingen,_Hoofdlocatie
-087bd7b9-d76e-e811-80f7-005056956c1a,,Coöperatie SURF U.A.,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-5b0fe98b-b8ea-e511-80da-005056956c1a,,DANS,Onderzoeksinstellingen,_Hoofdlocatie
-4c206112-0a19-f011-998a-000d3a22bae6,,Design Museum,Musea,_Hoofdlocatie
-939bd8a6-bae7-ef11-9342-7c1e524eba23,,Erfgoed Leiden en Omstreken,OVERIG,_Hoofdlocatie
-8b47d757-65bb-ee11-a569-000d3ab6fa92,,European Society for Blood and Marrow Transplantation,OVERIG,_Hoofdlocatie
-c27bd7b9-d76e-e811-80f7-005056956c1a,,Gemeente Amersfoort,OVERIG,_Hoofdlocatie
-0f453297-8739-ed11-9db1-000d3abd864b,,GenomeScan,Onderzoeksinstellingen,_Hoofdlocatie
-796cd958-6b34-ef11-8409-00224887e95e,,GGD Amsterdam,OVERIG,_Hoofdlocatie
-1a0156ad-0d11-e511-80d0-005056956c1a,,Het Nieuwe Instituut,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-82250595-c5f0-ed11-8849-000d3abd8e09,,Het Spoorwegmuseum,Musea,_Hoofdlocatie
-dcdd6ecc-0d11-e511-80d0-005056956c1a,,Hogeschool Tio_inactief,HBO,_Hoofdlocatie
-5ef3a18d-a507-e611-80db-005056956c1a,,Landelijk Centrum Studiekeuze,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-20891d6a-e520-f011-998a-000d3a22bae6,,Liberas,OVERIG,_Hoofdlocatie
-58917cda-5c3d-e811-80f1-005056956c1a,,Limburgs Museum,Musea,_Hoofdlocatie
-ec7cd7b9-d76e-e811-80f7-005056956c1a,,Museon-Omniversum,Musea,_Hoofdlocatie
-5faa0f83-df28-e711-80e5-005056956c1a,,Nederlands Studiecentrum Criminaliteit en Rechtshandhaving .,Onderzoeksinstellingen,_Hoofdlocatie
-4d60dad4-f183-f011-b4cc-000d3a458b47,,Nederlands Veteraneninstituut,Musea,_Hoofdlocatie
-f3be88c5-0911-e511-80d0-005056956c1a,,OCLC B.V.,Bibliotheken,_Hoofdlocatie
-507dd7b9-d76e-e811-80f7-005056956c1a,,Openbare Bibliotheek Eindhoven,Bibliotheken,_Hoofdlocatie
-0b21efcb-7444-e811-80f2-005056956c1a,,Probiblio,Bibliotheken,_Hoofdlocatie
-b743ea87-0d11-e511-80d0-005056956c1a,,Prolo Test,UMC,_Hoofdlocatie
-b27dd7b9-d76e-e811-80f7-005056956c1a,,Regionaal Archief Zutphen,OVERIG,_Hoofdlocatie
-c47dd7b9-d76e-e811-80f7-005056956c1a,,RKD – Nederlands Instituut voor Kunstgeschiedenis,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-ca7dd7b9-d76e-e811-80f7-005056956c1a,,ROC Kop van Noord Holland,MBO,_Hoofdlocatie
-78564194-0d11-e511-80d0-005056956c1a,,Simac ICT Nederland,OVERIG,_Hoofdlocatie
-93ba6dff-0c11-e511-80d0-005056956c1a,,SRON Netherlands Institute for Space Research .,Onderzoeksinstellingen,_Hoofdlocatie
-6dc0a81a-ef20-f011-998a-000d3a22bae6,,Stadhuis Den Haag,OVERIG,_Hoofdlocatie
-14a6c781-0911-e511-80d0-005056956c1a,,Stenden Hogeschool_inactief,HBO,_Hoofdlocatie
-387ed7b9-d76e-e811-80f7-005056956c1a,,Stichting Bibliotheek IJmond Noord,Bibliotheken,_Hoofdlocatie
-3c7ed7b9-d76e-e811-80f7-005056956c1a,,Stichting de Bibliotheek Midden-Brabant,Bibliotheken,_Hoofdlocatie
-7a7ed7b9-d76e-e811-80f7-005056956c1a,,Stichting Discovery Museum,Musea,_Hoofdlocatie
-a7a4696d-9dce-eb11-910c-0050569571ea,,Stichting Domein Applied Science (DAS),OVERIG,_Hoofdlocatie
-b1ab2efc-8a3e-ef11-8409-00224887e95e,,Stichting Gereformeerde Scholengroep,MBO,_Hoofdlocatie
-1c7ed7b9-d76e-e811-80f7-005056956c1a,,Stichting Huis73 's-Hertogenbosch e.o.,Bibliotheken,_Hoofdlocatie
-85d10540-0a11-e511-80d0-005056956c1a,,Stichting ICTU_inactief,OVERIG,_Hoofdlocatie
-03a249f1-2bd3-ef11-8ee9-0022488345b9,,Stichting Institute for hDMT,Onderzoeksinstellingen,_Hoofdlocatie
-707ed7b9-d76e-e811-80f7-005056956c1a,,Stichting Mommerskwartier,Musea,_Hoofdlocatie
-9a7504de-5b3d-e811-80f1-005056956c1a,,Stichting Stedelijk Museum Amsterdam,Musea,_Hoofdlocatie
-152ab376-eb42-e811-80f2-005056956c1a,,Stichting Texels Museum,Musea,_Hoofdlocatie
-8977c4ba-636c-f011-b4cb-000d3a458b47,,Streekarchief Midden-Holland,OVERIG,_Hoofdlocatie
-8f8f6c2d-0a11-e511-80d0-005056956c1a,,Thim van der Laan,HBO,_Hoofdlocatie
-b61c028e-0911-e511-80d0-005056956c1a,,TNO - Information Office_inactief,Onderzoeksinstellingen,_Hoofdlocatie
-127dd7b9-d76e-e811-80f7-005056956c1a,,Vereniging Netherlands House for Education and Research,Aan hoger onderwijs gelieerde instellingen,_Hoofdlocatie
-467fd7b9-d76e-e811-80f7-005056956c1a,,Wetenschappelijk Onderzoek- en Datacentrum,Onderzoeksinstellingen,_Hoofdlocatie
-3e0af3ea-de9b-e811-80fd-005056956c1a,,Zeeuws Archief,OVERIG,_Hoofdlocatie
-deb7e27b-ed3a-f011-b4cc-000d3a22bae6,,Ziekenhuis Gelderse Vallei,OVERIG,_Hoofdlocatie
+sep=,
+crm_guid,crm_code,crm_name,crm_doelgroep,crm_locatietype
+3bd5f900-130b-ec11-9110-0050569571ea,ACAR,Artemis Academie,Overig hoger onderwijs,Hoofdlocatie
+52df2ae7-0c11-e511-80d0-005056956c1a,AERES,Stichting Aeres Groep,MBO,Hoofdlocatie
+ecf7e733-0a11-e511-80d0-005056956c1a,AHK,Amsterdamse Hogeschool voor de Kunsten,HBO,Hoofdlocatie
+c7a3d065-0c11-e511-80d0-005056956c1a,ALBEDA,Albeda,MBO,Hoofdlocatie
+dd605bb2-0b11-e511-80d0-005056956c1a,ALFA,Alfa-college,MBO,Hoofdlocatie
+787fd7b9-d76e-e811-80f7-005056956c1a,AMOLF,AMOLF,Onderzoeksinstellingen,Hoofdlocatie
+841cadc4-0b11-e511-80d0-005056956c1a,AMPHIA,Amphia Ziekenhuis,STZ,Hoofdlocatie
+f1fdba5c-0b11-e511-80d0-005056956c1a,ANTONIUSZKH,St. Antonius Ziekenhuis,STZ,Hoofdlocatie
+307ad7b9-d76e-e811-80f7-005056956c1a,AOB,Algemene Onderwijsbond,Aan hoger onderwijs gelieerde instellingen,Hoofdlocatie
+809bef79-af20-e511-80d0-005056956c1a,AOCOOST,Zone.college,MBO,Hoofdlocatie
+367a7248-0911-e511-80d0-005056956c1a,ARTEZ,ArtEZ University of the Arts,HBO,Hoofdlocatie
+7c41e5e3-0911-e511-80d0-005056956c1a,ASTRON,ASTRON,Onderzoeksinstellingen,Hoofdlocatie
+e753130e-0a11-e511-80d0-005056956c1a,AUMC,Amsterdam UMC,UMC,Hoofdlocatie
+3f4fc287-0911-e511-80d0-005056956c1a,AVANS,Avans Hogeschool,HBO,Hoofdlocatie
+aeb41a46-0a11-e511-80d0-005056956c1a,AVENTUS,ROC Aventus,MBO,Hoofdlocatie
+a67a7248-0911-e511-80d0-005056956c1a,BNGRON,Biblionet Groningen,Bibliotheken,Hoofdlocatie
+13168ebf-0911-e511-80d0-005056956c1a,BUAS,Breda University of Applied Sciences,HBO,Hoofdlocatie
+467ed7b9-d76e-e811-80f7-005056956c1a,CENTERDATA,Stichting Centerdata,Onderzoeksinstellingen,Hoofdlocatie
+4547f65a-0911-e511-80d0-005056956c1a,CHE,Christelijke Hogeschool Ede,HBO,Hoofdlocatie
+f24dd711-0d11-e511-80d0-005056956c1a,CIBAP,Cibap vakschool voor vormgeving,MBO,Hoofdlocatie
+7947f65a-0911-e511-80d0-005056956c1a,CITO,Stichting Cito Instituut voor Toetsontwikkeling,Aan hoger onderwijs gelieerde instellingen,Hoofdlocatie
+9bd10540-0a11-e511-80d0-005056956c1a,CLUSIUS,Vonk,MBO,Hoofdlocatie
+3cf3a18d-a507-e611-80db-005056956c1a,CODARTS,Codarts Rotterdam,HBO,Hoofdlocatie
+4573b4a6-0d11-e511-80d0-005056956c1a,COG,Christelijke Onderwijs Groep Vallei & Gelderland-Midden,MBO,Hoofdlocatie
+2447f65a-0911-e511-80d0-005056956c1a,CPB,Centraal Planbureau,Onderzoeksinstellingen,Hoofdlocatie
+b92250f0-c2be-eb11-910b-0050569571ea,CURIO,Curio,MBO,Hoofdlocatie
+8e7fd7b9-d76e-e811-80f7-005056956c1a,CWI,Centrum Wiskunde en Informatica,Onderzoeksinstellingen,Hoofdlocatie
+9ec33ad9-0d11-e511-80d0-005056956c1a,DAVINCI,Da Vinci College,MBO,Hoofdlocatie
+5b43b714-0a11-e511-80d0-005056956c1a,DELTARES,Deltares,Grote technologische instituten,Hoofdlocatie
+1cefdc0b-0b11-e511-80d0-005056956c1a,DELTION,Deltion College,MBO,Hoofdlocatie
+88503161-0911-e511-80d0-005056956c1a,DESIGNACADEMY,Design Academy Eindhoven,HBO,Hoofdlocatie
+aa7fd7b9-d76e-e811-80f7-005056956c1a,DIFFER,DIFFER,Onderzoeksinstellingen,Hoofdlocatie
+6e82fa68-0911-e511-80d0-005056956c1a,DRENTHECOLLEGE,DCTerra,MBO,Hoofdlocatie
+3a47f65a-0911-e511-80d0-005056956c1a,DRIESTAR,Driestar Hogeschool,HBO,Hoofdlocatie
+2e0156ad-0d11-e511-80d0-005056956c1a,EGI,EGI Foundation,Onderzoeksinstellingen,Hoofdlocatie
+a382fa68-0911-e511-80d0-005056956c1a,ERASMUSMC,Erasmus MC,UMC,Hoofdlocatie
+97bbc0da-0c11-e511-80d0-005056956c1a,ESCIENCECENTER,Netherlands eScience Center,Onderzoeksinstellingen,Hoofdlocatie
+93e92ec8-0a11-e511-80d0-005056956c1a,ETZ,Elisabeth TweeSteden Ziekenhuis,STZ,Hoofdlocatie
+ae82fa68-0911-e511-80d0-005056956c1a,EUR,Erasmus Universiteit Rotterdam,Universiteiten,Hoofdlocatie
+7460582e-b9cf-ed11-b597-000d3a4b7eb5,FIRDA,Firda,MBO,Hoofdlocatie
+dbba7775-0911-e511-80d0-005056956c1a,FONTYS,Fontys Hogeschool,HBO,Hoofdlocatie
+55b0f277-0c11-e511-80d0-005056956c1a,GH,Stichting Hogeschool Viaa,HBO,Hoofdlocatie
+f0cc01d1-0b11-e511-80d0-005056956c1a,GILDE,ROC Gilde Opleidingen,MBO,Hoofdlocatie
+b8d7a67b-0911-e511-80d0-005056956c1a,GLR,Grafisch Lyceum Rotterdam,MBO,Hoofdlocatie
+c3d7a67b-0911-e511-80d0-005056956c1a,GLU,Grafisch Lyceum Utrecht,MBO,Hoofdlocatie
+5203e539-0a11-e511-80d0-005056956c1a,GRAAFSCHAP,Graafschap College,MBO,Hoofdlocatie
+6e33d7d2-0d11-e511-80d0-005056956c1a,GRONINGERFORUM,Forum Groningen,Bibliotheken,Hoofdlocatie
+a13ac01a-0a11-e511-80d0-005056956c1a,HAN,Hogeschool van Arnhem en Nijmegen,HBO,Hoofdlocatie
+cba5c781-0911-e511-80d0-005056956c1a,HANZE,Hanzehogeschool Groningen,HBO,Hoofdlocatie
+23459c0b-0d11-e511-80d0-005056956c1a,HAS,HAS green academy,HBO,Hoofdlocatie
+91cd796f-1ffa-e811-8102-005056956c1a,HBOAC,HBO-Academy,Overig hoger onderwijs,Hoofdlocatie
+651c028e-0911-e511-80d0-005056956c1a,HDH,Hotelschool Den Haag,HBO,Hoofdlocatie
+5fc44cc6-f00b-f011-bae3-002248857db5,HFML-FELIX,HFML-FELIX,Onderzoeksinstellingen,Hoofdlocatie
+d8d7a67b-0911-e511-80d0-005056956c1a,HHS,De Haagse Hogeschool,HBO,Hoofdlocatie
+0a7cd7b9-d76e-e811-80f7-005056956c1a,HKDH,Hogeschool der Kunsten Den Haag,HBO,Hoofdlocatie
+073bc01a-0a11-e511-80d0-005056956c1a,HKU,Hogeschool voor de Kunsten Utrecht,HBO,Hoofdlocatie
+3c16068d-c3be-eb11-910b-0050569571ea,HMC,Hout- en Meubileringscollege (HMC),MBO,Hoofdlocatie
+baa14802-0c11-e511-80d0-005056956c1a,HORIZON,Talland College,MBO,Hoofdlocatie
+354fc287-0911-e511-80d0-005056956c1a,HRO,Hogeschool Rotterdam,HBO,Hoofdlocatie
+2a4fc287-0911-e511-80d0-005056956c1a,HSLEIDEN,Hogeschool Leiden,HBO,Hoofdlocatie
+558f6c2d-0a11-e511-80d0-005056956c1a,HSMARNIX,Marnix Academie,HBO,Hoofdlocatie
+e86dd471-a015-e511-80d0-005056956c1a,HSTIO,Hogeschool TIO,Overig hoger onderwijs,Hoofdlocatie
+724fc287-0911-e511-80d0-005056956c1a,HSZUYD,Zuyd Hogeschool,HBO,Hoofdlocatie
+ed3ac01a-0a11-e511-80d0-005056956c1a,HU,Hogeschool Utrecht,HBO,Hoofdlocatie
+534fc287-0911-e511-80d0-005056956c1a,HVA,Hogeschool van Amsterdam,HBO,Hoofdlocatie
+674fc287-0911-e511-80d0-005056956c1a,HZEELAND,HZ University of Applied Sciences,HBO,Hoofdlocatie
+ff104994-0911-e511-80d0-005056956c1a,IB-GROEP,Dienst Uitvoering Onderwijs - DUO,Aan hoger onderwijs gelieerde instellingen,Hoofdlocatie
+fc1923d5-275b-e711-80e7-005056956c1a,IBFD,IBFD - International Bureau of Fiscal Documentation,Onderzoeksinstellingen,Hoofdlocatie
+14114994-0911-e511-80d0-005056956c1a,IHE,Stichting IHE Delft Institute for Water Education,Overig hoger onderwijs,Hoofdlocatie
+45af70f9-0c11-e511-80d0-005056956c1a,IKNL,Integraal Kankercentrum Nederland,Onderzoeksinstellingen,Hoofdlocatie
+3ca6c781-0911-e511-80d0-005056956c1a,INHOLLAND,Hogeschool Inholland,HBO,Hoofdlocatie
+88e92ec8-0a11-e511-80d0-005056956c1a,IPABO,Hogeschool iPabo,HBO,Hoofdlocatie
+4ef3a18d-a507-e611-80db-005056956c1a,ISELINGE,Iselinge Hogeschool,HBO,Hoofdlocatie
+06121c27-0a11-e511-80d0-005056956c1a,KEMPEL,Hogeschool de Kempel,HBO,Hoofdlocatie
+ba41e5e3-0911-e511-80d0-005056956c1a,KENNISNET,Kennisnet,Aan hoger onderwijs gelieerde instellingen,Hoofdlocatie
+03f5316c-9b9d-e511-80d5-005056956c1a,KIEN,Coöperatie KIEN,OSP,Hoofdlocatie
+ec10ebb9-0d11-e511-80d0-005056956c1a,KIT,Koninklijk Instituut voor de Tropen,Onderzoeksinstellingen,Hoofdlocatie
+cc8e999a-0911-e511-80d0-005056956c1a,KNAW,Koninklijke Nederlandse Akademie van Wetenschappen,Onderzoeksinstellingen,Hoofdlocatie
+a5d3b0a0-0911-e511-80d0-005056956c1a,KNMI,Koninklijk Nederlands Meteorologisch Instituut,Onderzoeksinstellingen,Hoofdlocatie
+bad3b0a0-0911-e511-80d0-005056956c1a,KONBIB,Koninklijke Bibliotheek,Bibliotheken,Hoofdlocatie
+71c5939c-0c11-e511-80d0-005056956c1a,KPZ,Hogeschool KPZ,HBO,Hoofdlocatie
+6f3a3614-0c11-e511-80d0-005056956c1a,KWIC,Koning Willem 1 College,MBO,Hoofdlocatie
+9dea0ff5-1d01-ed11-82e5-000d3ab78b09,KWR,KWR Water Research Institute,Onderzoeksinstellingen,Hoofdlocatie
+d146e5d1-c315-e511-80d0-005056956c1a,LANDSTEDE,Landstede MBO,MBO,Hoofdlocatie
+09114994-0911-e511-80d0-005056956c1a,LEIDENUNIV,Universiteit Leiden,Universiteiten,Hoofdlocatie
+54fe37c8-ec26-e511-80d0-005056956c1a,LENTIZ,Lentiz Onderwijsgroep,MBO,Hoofdlocatie
+53340e19-f86f-ed11-9561-000d3a4b7eb5,LIS,Leidse Instrumentmakers School,MBO,Hoofdlocatie
+41640424-a015-e511-80d0-005056956c1a,LOI,LOI Hogeschool,Overig hoger onderwijs,Hoofdlocatie
+9865c1cb-0911-e511-80d0-005056956c1a,LSOP,Politieacademie,Overig hoger onderwijs,Hoofdlocatie
+21a1f0a6-0911-e511-80d0-005056956c1a,LUMC,Leids Universitair Medisch Centrum,UMC,Hoofdlocatie
+68a1f0a6-0911-e511-80d0-005056956c1a,MARIN,Maritime Research Institute Netherlands (MARIN),Onderzoeksinstellingen,Hoofdlocatie
+aedf8cb8-0b11-e511-80d0-005056956c1a,MBOAMERSFOORT,MBO Amersfoort,MBO,Hoofdlocatie
+0fa5cbc1-6255-e511-80d2-005056956c1a,MBORAAD,MBO Raad,Aan hoger onderwijs gelieerde instellingen,Hoofdlocatie
+f3442647-50ae-e711-80eb-005056956c1a,MBORIJNLAND,mboRijnland,MBO,Hoofdlocatie
+a22c4918-0d11-e511-80d0-005056956c1a,MBOUTRECHT,MBO Utrecht,MBO,Hoofdlocatie
+b156265a-c5be-eb11-910b-0050569571ea,MEDIACOLLEGE,Mediacollege Amsterdam,MBO,Hoofdlocatie
+0f3ac854-97dc-e511-80d9-005056956c1a,MMC,Máxima Medisch Centrum,STZ,Hoofdlocatie
+eb6358b3-0911-e511-80d0-005056956c1a,MONDRIAAN,ROC Mondriaan,MBO,Hoofdlocatie
+3a5b1dad-0911-e511-80d0-005056956c1a,MPI,Max Planck Instituut,Onderzoeksinstellingen,Hoofdlocatie
+bae56b42-0911-e511-80d0-005056956c1a,MUMC,Maastricht UMC,UMC,Hoofdlocatie
+fd72b4a6-0d11-e511-80d0-005056956c1a,NATURALIS,Naturalis Biodiversity Center,Onderzoeksinstellingen,Hoofdlocatie
+2a6458b3-0911-e511-80d0-005056956c1a,NBD-BIBLION,NBD Biblion,Bibliotheken,Hoofdlocatie
+c7dd6ecc-0d11-e511-80d0-005056956c1a,NCOI,NCOI Opleidingsgroep,Overig hoger onderwijs,Hoofdlocatie
+2b7c7468-3692-e711-80e9-005056956c1a,NHLSTENDEN,NHL Stenden Hogeschool,HBO,Hoofdlocatie
+23345ab9-0911-e511-80d0-005056956c1a,NIBG,Nederlands Instituut voor Beeld en Geluid,Musea,Hoofdlocatie
+37168ebf-0911-e511-80d0-005056956c1a,NIKHEF,NIKHEF,Onderzoeksinstellingen,Hoofdlocatie
+557150c6-0d11-e511-80d0-005056956c1a,NIMETO,Nimeto Utrecht,MBO,Hoofdlocatie
+3d098696-0c11-e511-80d0-005056956c1a,NIOZ,Koninklijk Nederlands Instituut voor Zeeonderzoek - NIOZ,Onderzoeksinstellingen,Hoofdlocatie
+3e88dde9-0911-e511-80d0-005056956c1a,NIVEL,Stichting Nivel,Onderzoeksinstellingen,Hoofdlocatie
+66345ab9-0911-e511-80d0-005056956c1a,NKI,Nederlands Kanker Instituut,Onderzoeksinstellingen,Hoofdlocatie
+2225fee0-0c11-e511-80d0-005056956c1a,NLDA,Nederlandse Defensie Academie (NLDA),Overig hoger onderwijs,Hoofdlocatie
+e5fcf181-0d11-e511-80d0-005056956c1a,NOVA,ROC Nova College,MBO,Hoofdlocatie
+4988dde9-0911-e511-80d0-005056956c1a,NPC,Noorderpoort,MBO,Hoofdlocatie
+0b1a6ee6-cd5b-e711-80e7-005056956c1a,NRG,Nuclear Research Group,Onderzoeksinstellingen,Hoofdlocatie
+7880d7b9-d76e-e811-80f7-005056956c1a,NSCR,Nederlands Studiecentrum Criminaliteit en Rechtshandhaving,Onderzoeksinstellingen,Hoofdlocatie
+debe88c5-0911-e511-80d0-005056956c1a,NUFFIC,Nuffic,Aan hoger onderwijs gelieerde instellingen,Hoofdlocatie
+7a80d7b9-d76e-e811-80f7-005056956c1a,NWO,Nederlandse Organisatie voor Wetenschappelijk Onderzoek,Onderzoeksinstellingen,Hoofdlocatie
+d0ba7775-0911-e511-80d0-005056956c1a,NWOI,Stichting Nederlandse Wetenschappelijk Onderzoek Instituten,Onderzoeksinstellingen,Hoofdlocatie
+e8be88c5-0911-e511-80d0-005056956c1a,NYENRODE,Nyenrode Business Universiteit,Overig hoger onderwijs,Hoofdlocatie
+12bf88c5-0911-e511-80d0-005056956c1a,OBA,Openbare Bibliotheek Amsterdam,Bibliotheken,Hoofdlocatie
+08bf88c5-0911-e511-80d0-005056956c1a,OU,Open Universiteit Nederland,Universiteiten,Hoofdlocatie
+4b1cadc4-0b11-e511-80d0-005056956c1a,OWGTILBURG,Yonder,MBO,Hoofdlocatie
+407f27ac-0b11-e511-80d0-005056956c1a,PBL,Planbureau voor de Leefomgeving,Onderzoeksinstellingen,Hoofdlocatie
+9c322754-7868-e711-80e8-005056956c1a,PMC,Prinses Máxima Centrum voor kinderoncologie,Onderzoeksinstellingen,Hoofdlocatie
+987dd7b9-d76e-e811-80f7-005056956c1a,PThU,Protestantse Theologische Universiteit,Overig hoger onderwijs,Hoofdlocatie
+7519b9d7-0911-e511-80d0-005056956c1a,RIJC,Rijn IJssel,MBO,Hoofdlocatie
+ba7dd7b9-d76e-e811-80f7-005056956c1a,RIJKSDIENSTCE,Rijksdienst voor het Cultureel Erfgoed,Onderzoeksinstellingen,Hoofdlocatie
+d8fdba5c-0b11-e511-80d0-005056956c1a,RIJKSMUSEUM,Rijksmuseum Amsterdam,Musea,Hoofdlocatie
+4f73b4a6-0d11-e511-80d0-005056956c1a,RIJNSTATE,Rijnstate Ziekenhuis,STZ,Hoofdlocatie
+c1adb9d1-0911-e511-80d0-005056956c1a,RIVM,Rijksinstituut voor Volksgezondheid en Milieu,Onderzoeksinstellingen,Hoofdlocatie
+7f1a9e8c-e0df-e711-80ed-005056956c1a,RIVOR,ROC Rivor,MBO,Hoofdlocatie
+66d10540-0a11-e511-80d0-005056956c1a,ROC-EHV,Stichting ROC Summa College,MBO,Hoofdlocatie
+fbadb9d1-0911-e511-80d0-005056956c1a,ROC-NIJMEGEN,ROC Nijmegen,MBO,Hoofdlocatie
+8019b9d7-0911-e511-80d0-005056956c1a,ROC-ON,ROC van Twente,MBO,Hoofdlocatie
+e7adb9d1-0911-e511-80d0-005056956c1a,ROCMN,ROC Midden Nederland,MBO,Hoofdlocatie
+7fb41a46-0a11-e511-80d0-005056956c1a,ROCVA,ROC van Amsterdam-Flevoland,MBO,Hoofdlocatie
+dfe40c49-035c-e711-80e7-005056956c1a,ROOIPANNEN,De Rooi Pannen,MBO,Hoofdlocatie
+a019b9d7-0911-e511-80d0-005056956c1a,ROOSEVELT,University College Roosevelt,Overig hoger onderwijs,Hoofdlocatie
+e33ac01a-0a11-e511-80d0-005056956c1a,RU,Radboud Universiteit,Universiteiten,Hoofdlocatie
+ccadb9d1-0911-e511-80d0-005056956c1a,RUG,Rijksuniversiteit Groningen,Universiteiten,Hoofdlocatie
+9a82b820-0a11-e511-80d0-005056956c1a,SAXION,Saxion,HBO,Hoofdlocatie
+805b2684-8c68-e711-80e8-005056956c1a,SCALDA,Scalda,MBO,Hoofdlocatie
+145fd0dd-0911-e511-80d0-005056956c1a,SCP,Sociaal en Cultureel Planbureau,Onderzoeksinstellingen,Hoofdlocatie
+d7caa228-0c11-e511-80d0-005056956c1a,SIDN,SIDN,OVERIG,Hoofdlocatie
+61e9e76b-0c11-e511-80d0-005056956c1a,SINTLUCAS,SintLucas,MBO,Hoofdlocatie
+55664529-9156-ed11-bba2-000d3abcae8d,SOMA,SOMA College,MBO,Hoofdlocatie
+3baf70f9-0c11-e511-80d0-005056956c1a,SOMT,Stichting Opleidingen Musculoskeletale Therapie,Overig hoger onderwijs,Hoofdlocatie
+c86d3538-65f5-e911-90f2-0050569571ea,SORG,RBO scholen,MBO,Hoofdlocatie
+6081d7b9-d76e-e811-80f7-005056956c1a,SRON,SRON Space Research Organisation Netherlands,Onderzoeksinstellingen,Hoofdlocatie
+1725fee0-0c11-e511-80d0-005056956c1a,STCMBO,STC Group,MBO,Hoofdlocatie
+987ed7b9-d76e-e811-80f7-005056956c1a,STSANS,Stichting SaNS,Aan hoger onderwijs gelieerde instellingen,Hoofdlocatie
+ec9d6d75-0d11-e511-80d0-005056956c1a,STUDIELINK,Stichting Studielink,Aan hoger onderwijs gelieerde instellingen,Hoofdlocatie
+45dde2d3-3b5f-ec11-9114-0050569571ea,SVO,SVO vakopleiding food,MBO,Hoofdlocatie
+8a88dde9-0911-e511-80d0-005056956c1a,SWOV,Stichting Wetenschappelijk Onderzoek Verkeersveiligheid,Onderzoeksinstellingen,Hoofdlocatie
+e761b706-6bfa-e611-80e3-005056956c1a,TERAA,Ter AA,MBO,Hoofdlocatie
+9c9c15f6-0911-e511-80d0-005056956c1a,TERENA,GÉANT Vereniging,Aan hoger onderwijs gelieerde instellingen,Hoofdlocatie
+e7a7897b-0d11-e511-80d0-005056956c1a,THOMAS,Thomas More Hogeschool,HBO,Hoofdlocatie
+15931efc-0911-e511-80d0-005056956c1a,TNO,TNO,Grote technologische instituten,Hoofdlocatie
+236c6787-0b11-e511-80d0-005056956c1a,TRIMBOS,Trimbos Instituut,Onderzoeksinstellingen,Hoofdlocatie
+4f82fa68-0911-e511-80d0-005056956c1a,TUDELFT,Technische Universiteit Delft,Universiteiten,Hoofdlocatie
+1194daef-0911-e511-80d0-005056956c1a,TUE,Technische Universiteit Eindhoven,Universiteiten,Hoofdlocatie
+b4c881ce-0a11-e511-80d0-005056956c1a,TUKAMPEN,Theologische Universiteit Utrecht,Overig hoger onderwijs,Hoofdlocatie
+b0e56b42-0911-e511-80d0-005056956c1a,UMCG,Universitair Medisch Centrum Groningen,UMC,Hoofdlocatie
+66931efc-0911-e511-80d0-005056956c1a,UMCN,Radboudumc,UMC,Hoofdlocatie
+03011e02-0a11-e511-80d0-005056956c1a,UMCU,UMC Utrecht,UMC,Hoofdlocatie
+21011e02-0a11-e511-80d0-005056956c1a,UNIMAAS,Maastricht University,Universiteiten,Hoofdlocatie
+e1b22db5-b1d1-e611-80e3-005056956c1a,UNIVCURACAO,University of Curacao,Overig hoger onderwijs,Hoofdlocatie
+dc53130e-0a11-e511-80d0-005056956c1a,UNL,Universiteiten van Nederland,Aan hoger onderwijs gelieerde instellingen,Hoofdlocatie
+223bc01a-0a11-e511-80d0-005056956c1a,UTWENTE,University of Twente,Universiteiten,Hoofdlocatie
+90ba7775-0911-e511-80d0-005056956c1a,UU,Universiteit Utrecht,Universiteiten,Hoofdlocatie
+ec82b820-0a11-e511-80d0-005056956c1a,UVA,Universiteit van Amsterdam,Universiteiten,Hoofdlocatie
+d6a91808-0a11-e511-80d0-005056956c1a,UVH,Universiteit voor Humanistiek,Overig hoger onderwijs,Hoofdlocatie
+4f011e02-0a11-e511-80d0-005056956c1a,UVT,Tilburg University,Universiteiten,Hoofdlocatie
+0feb43f0-7444-e811-80f2-005056956c1a,VANGOGH,Van Gogh Museum,Musea,Hoofdlocatie
+46aa1808-0a11-e511-80d0-005056956c1a,VHL,Hogeschool Van Hall Larenstein,HBO,Hoofdlocatie
+dbfedd52-c2a3-e911-90f2-0050569571ea,VISTA,VISTA College,MBO,Hoofdlocatie
+d253130e-0a11-e511-80d0-005056956c1a,VU,Vrije Universiteit Amsterdam,Universiteiten,Hoofdlocatie
+5043b714-0a11-e511-80d0-005056956c1a,WINDESHEIM,Christelijke Hogeschool Windesheim,HBO,Hoofdlocatie
+2143b714-0a11-e511-80d0-005056956c1a,WUR,Wageningen University & Research,Universiteiten,Hoofdlocatie
+080e2956-ab5f-eb11-9105-0050569571ea,YUVERTA,Yuverta,MBO,Hoofdlocatie
+9519b9d7-0911-e511-80d0-005056956c1a,ZADKINE,ROC Zadkine,MBO,Hoofdlocatie
+963ac01a-0a11-e511-80d0-005056956c1a,ZEBI,ZB Bibliotheek van Zeeland,Bibliotheken,Hoofdlocatie
+4a9ea150-0d11-e511-80d0-005056956c1a,ZONMW,ZonMw,Onderzoeksinstellingen,Hoofdlocatie
+ec7cd7b9-d76e-e811-80f7-005056956c1a,,Museon-Omniversum,Musea,Hoofdlocatie
+467cd7b9-d76e-e811-80f7-005056956c1a,,Nederlands Instituut Publieke Veiligheid,Overig hoger onderwijs,Hoofdlocatie

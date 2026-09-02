@@ -7,6 +7,13 @@ shopt -s nullglob
 
 cd "$(dirname "${BASH_SOURCE[0]}")/../"
 
+if ! which magick > /dev/null
+then
+    echo "FATAL: Imagemagick's 'magick' command not found"
+    exit 2
+fi
+
+
 SIZE=$1
 
 if [ -z "$SIZE" ]; then
@@ -105,6 +112,8 @@ function process() {
 SUBDIR="${SIZE}x${SIZE}"
 mkdir -p "$SUBDIR"
 
+echo "Start resize for ${SIZE}x${SIZE}"
+
 errors=0
 for image in bron/*.png
 do
@@ -119,5 +128,8 @@ then
     echo "Encountered ${errors} errors while processing"
     exit 1
 fi
+
+echo "Done resize for ${SIZE}x${SIZE}"
+echo
 
 exit 0

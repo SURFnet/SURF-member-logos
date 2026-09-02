@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - 'bron/*.png'
+      - 'scripts/resize.sh'
+      - '.github/workflows/resize.yml'
 
 permissions:
   contents: write
@@ -18,7 +20,8 @@ concurrency:
 
 jobs:
   resize:
-    runs-on: ubuntu-latest
+    # need at least 26.04 for imagemagick 7
+    runs-on: "ubuntu-26.04"
 
     steps:
       - name: Check out repository

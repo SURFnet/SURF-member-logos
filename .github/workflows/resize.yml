@@ -6,6 +6,7 @@ on:
     paths:
       - 'bron/*.png'
       - 'scripts/resize.sh'
+      - 'scripts/check.sh'
       - '.github/workflows/resize.yml'
 
 permissions:
@@ -33,6 +34,10 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install --yes imagemagick
+
+      - name: Run checks
+        run: |
+          ./scripts/check.sh
 
       - name: Generate resized logos
         run: |

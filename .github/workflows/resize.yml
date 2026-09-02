@@ -1,5 +1,5 @@
 ---
-name: Resize organization logos
+name: "Check and esize organization logos"
 
 on:
   push:
@@ -10,13 +10,13 @@ on:
       - '.github/workflows/resize.yml'
 
 permissions:
-  contents: write
+  contents: "write"
 
 env:
   RESIZE_SIZES: '64 128 200'
 
 concurrency:
-  group: resize-${{ github.ref }}
+  group: "resize-${{ github.ref }}"
   cancel-in-progress: true
 
 jobs:
@@ -25,28 +25,28 @@ jobs:
     runs-on: "ubuntu-26.04"
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: "Check out repository"
+        uses: "actions/checkout@v4"
         with:
-          ref: ${{ github.ref }}
+          ref: "${{ github.ref }}"
 
-      - name: Install ImageMagick
+      - name: "Install ImageMagick"
         run: |
           sudo apt-get update
           sudo apt-get install --yes imagemagick
 
-      - name: Run checks
+      - name: "Run checks"
         run: |
           ./scripts/check.sh
 
-      - name: Generate resized logos
+      - name: "Generate resized logos"
         run: |
           for size in $RESIZE_SIZES; do
             ./scripts/resize.sh "$size"
           done
 
-      - name: Commit generated logos on main
-        if: github.ref == 'refs/heads/main'
+      - name: "Commit generated logos on main"
+        if: "github.ref == 'refs/heads/main'"
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

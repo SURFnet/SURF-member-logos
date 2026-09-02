@@ -32,7 +32,7 @@ function process() {
     local size=$2
     local destdir=$3
 
-    local dest="${destdir}/${img}"
+    local dest="${destdir}/$(basename ${img})"
 
     if [ -e "$dest" ] && [ "$dest" -nt "$img" ]
     then
@@ -40,7 +40,7 @@ function process() {
         return 0
     fi
 
-    echo "Processing ${img}..."
+    echo "Processing ${img}"
 
     # basic checks
     read -r orig_width orig_height < <(
@@ -106,7 +106,7 @@ SUBDIR="${SIZE}x${SIZE}"
 mkdir -p "$SUBDIR"
 
 errors=0
-for image in *.png
+for image in bron/*.png
 do
     if ! process "$image" "$SIZE" "$SUBDIR"
     then

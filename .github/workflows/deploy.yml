@@ -3,8 +3,8 @@ name: "GitHub Pages"
 
 on:
   push:
-#    branches:
-#      - "main"
+    branches:
+      - "main"
 
 concurrency:
   group: "pages-${{ github.ref }}"

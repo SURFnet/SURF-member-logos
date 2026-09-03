@@ -329,14 +329,22 @@
       statusElement.replaceChildren();
 
       if (type === "error") {
+        const p = document.createElement("p");
+
         const heading = document.createElement("strong");
         heading.textContent = message.heading;
-        statusElement.append(heading, document.createTextNode(message.detail));
+
+        const desc = document.createElement("span")
+        desc.textContent = message.detail;
+
+        p.append(heading, desc);
+
         const retryButton = document.createElement("button");
         retryButton.type = "button";
         retryButton.textContent = "Try again";
         retryButton.addEventListener("click", loadOrganizations);
-        statusElement.appendChild(retryButton);
+
+        statusElement.append(p, retryButton);
         return;
       }
 

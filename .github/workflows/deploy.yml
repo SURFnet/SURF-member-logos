@@ -34,7 +34,11 @@ jobs:
 
       - name: "Copy images"
         run: |
+          # replace symlinks by real data
+          rm galerij/128x128
           cp -R 128x128 galerij/
+          rm galerij/orgs.csv
+          cp orgs.csv galerij/
 
       - name: "Upload artifact"
         uses: "actions/upload-pages-artifact@v3"

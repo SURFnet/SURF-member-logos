@@ -1,0 +1,240 @@
+:root {
+    color-scheme: light;
+    --page-background: #f4f7fb;
+    --surface: #ffffff;
+    --text: #172033;
+    --muted-text: #5c667a;
+    --border: #dce3ee;
+    --accent: #185abc;
+    --error-background: #fff1f0;
+    --error-border: #e0aaa6;
+    --error-text: #8c1d18;
+    --placeholder: #eef2f7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    background: var(--page-background);
+    color: var(--text);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.5;
+}
+
+.page {
+    width: min(1400px, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 3rem 0 4rem;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3rem);
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+}
+
+.intro {
+    max-width: 42rem;
+    margin: 0.75rem 0;
+    color: var(--muted-text);
+    font-size: 1.05rem;
+}
+
+.toggle-guids {
+    max-width: 42rem;
+    margin: 0.75rem 0;
+    color: var(--muted-text);
+    font-size: 1.05rem;
+}
+
+.status {
+    min-height: 1.75rem;
+    margin: 0 0 1.25rem;
+    color: var(--muted-text);
+}
+
+.status.error {
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--error-border);
+    border-radius: 0.75rem;
+    background: var(--error-background);
+    color: var(--error-text);
+}
+
+.status.error strong {
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+button {
+    margin-top: 0.75rem;
+    padding: 0.55rem 0.9rem;
+    border: 1px solid var(--accent);
+    border-radius: 0.45rem;
+    background: var(--accent);
+    color: #ffffff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #124a9b;
+}
+
+button:focus-visible {
+    outline: 3px solid #8bb8f5;
+    outline-offset: 2px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.organization {
+    display: flex;
+    min-height: 230px;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: 0.8rem;
+    background: var(--surface);
+    box-shadow: 0 2px 8px rgb(23 32 51 / 5%);
+}
+
+.logo-frame {
+    display: grid;
+    height: 160px;
+    overflow: hidden;
+    place-items: center;
+    padding: 1rem;
+    background: #ffffff;
+}
+
+.logo-image {
+    display: block;
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
+}
+
+.logo-placeholder {
+    display: grid;
+    width: 128px;
+    height: 128px;
+    place-items: center;
+    border: 1px dashed var(--border);
+    border-radius: 0.5rem;
+    background: var(--placeholder);
+    color: var(--muted-text);
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.logo-placeholder[hidden],
+.logo-image[hidden] {
+    display: none;
+}
+
+.organization-info {
+    flex: 1;
+    padding: 0.8rem 1rem 1rem;
+    border-top: 1px solid var(--border);
+    overflow-wrap: anywhere;
+}
+
+.organization-name {
+    display: block;
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
+.organization-code {
+    display: block;
+}
+
+.organization-guid {
+    display: block;
+    font-size: xx-small;
+    font-family: monospace;
+}
+
+body.hide-guids .organization-guid {
+    display: none;
+}
+
+.empty-state {
+    padding: 2rem;
+    border: 1px dashed var(--border);
+    border-radius: 0.75rem;
+    background: var(--surface);
+    color: var(--muted-text);
+    text-align: center;
+}
+
+.skeleton {
+    height: 230px;
+    border-radius: 0.8rem;
+    background: linear-gradient(100deg, #e7edf5 30%, #f6f8fb 50%, #e7edf5 70%);
+    background-size: 200% 100%;
+    animation: shimmer 1.4s infinite;
+}
+
+@keyframes shimmer {
+    to {
+        background-position: -200% 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .skeleton {
+        animation: none;
+    }
+}
+
+@media (max-width: 520px) {
+    .page {
+        width: min(100% - 1rem, 1400px);
+        padding-top: 2rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.65rem;
+    }
+
+    .organization {
+        min-height: 205px;
+    }
+
+    .logo-frame {
+        min-height: 135px;
+        padding: 0.5rem;
+    }
+
+    .logo-image,
+    .logo-placeholder {
+        width: 96px;
+        height: 96px;
+    }
+
+    .organization-name {
+        padding: 0.65rem;
+        font-size: 0.9rem;
+    }
+}

@@ -1,5 +1,5 @@
 ---
-name: "GitHub Pages"
+name: "Deploy GitHub Pages"
 
 on:
   push:
@@ -38,7 +38,7 @@ jobs:
           rm galerij/128x128
           cp -R 128x128 galerij/
           rm galerij/bron
-          cp -R 128x128 bron/
+          cp -R bron galerij/
           rm galerij/orgs.csv
           cp orgs.csv galerij/
 

@@ -3,8 +3,8 @@ name: "GitHub Pages"
 
 on:
   push:
-    branches:
-      - "main"
+#    branches:
+#      - "main"
 
 concurrency:
   group: "resize-${{ github.ref }}"
@@ -32,10 +32,14 @@ jobs:
       - name: "Setup Pages"
         uses: "actions/configure-pages@v5"
 
+      - name: "Copy images"
+        run: |
+          cp -R 128x128 galerij/
+
       - name: "Upload artifact"
         uses: "actions/upload-pages-artifact@v3"
         with:
-          path: '.'
+          path: 'galerij/'
 
       - name: "Deploy to GitHub Pages"
         id: 'deployment'

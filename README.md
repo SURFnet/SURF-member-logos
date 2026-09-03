@@ -2,18 +2,24 @@
 
 Logo's van op SURF aangesloten organisaties.
 
+## Overzicht
+
+Een overzicht van de logo's is te zien op https://surfnet.github.io/SURF-member-logos/
+
+## Logo Submission Guidelines
+
 Belangrijk! Let op de onderstaande eigenschappen bij wijzigingen.
 
-## Eigenschappen logo's
+### Eigenschappen logo's
 * Zijn vierkant
-* Minstens 200x000
+* Minstens 200x200
 * Zoveel mogelijk vrij van artefacten
 
-## Bestandsnaam
+### Bestandsnaam
 
-Logo wordt opgeslagen onder `&lt;institution_guid&gt;.png`.
+Logo wordt opgeslagen onder `<institution_guid>.png` in the appropriate size folder (`64x64/`, `128x128/`, or `200x200/`).
 
-## Bronnen
+### Bronnen
 * Haal het juiste logo van de sociale media accounts van de instelling.
   Hier hebben ze lang over nagedacht wat de juiste versie van het logo
   is.

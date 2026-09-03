@@ -1,0 +1,52 @@
+---
+name: "GitHub Pages"
+
+on:
+  push:
+    branches:
+      - "main"
+
+concurrency:
+  group: "pages-${{ github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: "ubuntu-slim"
+
+    permissions:
+      contents: "read"
+      pages: "write"
+      id-token: "write"
+
+    environment:
+      name: "github-pages"
+      url: "${{ steps.deployment.outputs.page_url }}"
+
+    steps:
+      - name: "Check out repository"
+        uses: "actions/checkout@v4"
+        with:
+          ref: "${{ github.ref }}"
+
+      - name: "Setup Pages"
+        uses: "actions/configure-pages@v5"
+
+      - name: "Copy images"
+        run: |
+          # replace symlinks by real data
+          rm galerij/128x128
+          cp -R 128x128 galerij/
+          rm galerij/bron
+          cp -R 128x128 bron/
+          rm galerij/orgs.csv
+          cp orgs.csv galerij/
+
+      - name: "Upload artifact"
+        uses: "actions/upload-pages-artifact@v3"
+        with:
+          path: 'galerij/'
+
+      - name: "Deploy to GitHub Pages"
+        id: 'deployment'
+        uses: "actions/deploy-pages@v4"

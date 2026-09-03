@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A directory of SURFconext member organizations and their logos">
+  <title>Organization logos</title>
+  <link href="galerij.css" rel="stylesheet" />
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Organization logos</h1>
+      <p class="intro">Browse logos of organizations associated with SURF.</p>
+      <label class="toggle-guids"><input type="checkbox" id="toggle-guids"> show organisation guids</label>
+    </header>
+
+    <div id="status" class="status" role="status" aria-live="polite">Loading organizations&hellip;</div>
+    <ul id="gallery" class="gallery" aria-label="Organization logos">
+    </ul>
+  </main>
+
+    <script src="galerij.js"></script>
+  <script>
+    loadOrganizations();
+  </script>
+</body>
+</html>

@@ -45,11 +45,12 @@ jobs:
             unixtime=$(git log -1 --format="%at" -- "${filename}")
             touch -d @${unixtime} "${filename}"
           done
+          ls -lar
 
       - name: "Generate resized logos"
         run: |
           for size in $RESIZE_SIZES; do
-            ./scripts/resize.sh "$size"
+            bash -x ./scripts/resize.sh "$size"
           done
 
       - name: "Commit generated logos on main"

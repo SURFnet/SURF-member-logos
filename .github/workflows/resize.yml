@@ -39,6 +39,13 @@ jobs:
         run: |
           ./scripts/check.sh
 
+      - name: "Set correct file date for logos"
+        run: |
+          git ls-tree -r --name-only HEAD | while read filename; do
+            unixtime=$(git log -1 --format="%at" -- "${filename}")
+            touch -d @${unixtime} "${filename}"
+          done
+
       - name: "Generate resized logos"
         run: |
           for size in $RESIZE_SIZES; do

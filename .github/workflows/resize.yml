@@ -45,7 +45,7 @@ jobs:
             unixtime=$(git log -1 --format="%at" -- "${filename}")
             touch -d @${unixtime} "${filename}"
           done
-          ls -lar
+          ls -laR
 
       - name: "Generate resized logos"
         run: |

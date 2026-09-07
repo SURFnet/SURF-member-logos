@@ -13,7 +13,7 @@ permissions:
   contents: "write"
 
 env:
-  RESIZE_SIZES: '64 128 200'
+  RESIZE_SIZES: '64'
 
 concurrency:
   group: "resize-${{ github.ref }}"
@@ -43,6 +43,7 @@ jobs:
         run: |
           git ls-tree -r --name-only HEAD | while read filename; do
             unixtime=$(git log -1 --format="%at" -- "${filename}")
+            echo touch -d @${unixtime} "${filename}"
             touch -d @${unixtime} "${filename}"
           done
           ls -laR

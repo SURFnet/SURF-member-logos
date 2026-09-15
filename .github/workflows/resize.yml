@@ -54,18 +54,27 @@ jobs:
           done
 
       - name: "Commit generated logos on main"
+        id: commit
         if: "github.ref == 'refs/heads/main'"
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
           for size in $RESIZE_SIZES; do
             git add --all "${size}x${size}/"
           done
 
           if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo 'No generated logo changes to commit.'
-            exit 0
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git commit -m 'Update resized organization logos'
+            git push
           fi
 
-          git commit -m 'Update resized organization logos'
-          git push
+      - name: Trigger deploy
+        if: "github.ref == 'refs/heads/main' && steps.commit.outputs.changed == 'true'"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main

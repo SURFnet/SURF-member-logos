@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - "main"
+  # allow other action flows to trigger this flow
+  workflow_dispatch:
 
 concurrency:
   group: "pages-${{ github.ref }}"
